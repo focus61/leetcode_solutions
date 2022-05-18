@@ -11,6 +11,8 @@
 		9DD164E92834D06000B80F28 /* 283. Move Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD164E82834D06000B80F28 /* 283. Move Zeroes.swift */; };
 		9DD164EB2834D07300B80F28 /* 1672. Richest Customer Wealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD164EA2834D07300B80F28 /* 1672. Richest Customer Wealth.swift */; };
 		9DD164ED2834D08300B80F28 /* 25. Reverse Nodes in k-Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD164EC2834D08300B80F28 /* 25. Reverse Nodes in k-Group.swift */; };
+		9DFE8AE32834E121004C990F /* 1572. Matrix Diagonal Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE8AE22834E121004C990F /* 1572. Matrix Diagonal Sum.swift */; };
+		9DFE8AE82834E4B0004C990F /* 566. Reshape the Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFE8AE72834E4B0004C990F /* 566. Reshape the Matrix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9DD164E82834D06000B80F28 /* 283. Move Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283. Move Zeroes.swift"; sourceTree = "<group>"; };
 		9DD164EA2834D07300B80F28 /* 1672. Richest Customer Wealth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1672. Richest Customer Wealth.swift"; sourceTree = "<group>"; };
 		9DD164EC2834D08300B80F28 /* 25. Reverse Nodes in k-Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "25. Reverse Nodes in k-Group.swift"; sourceTree = "<group>"; };
+		9DFE8AE22834E121004C990F /* 1572. Matrix Diagonal Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1572. Matrix Diagonal Sum.swift"; sourceTree = "<group>"; };
+		9DFE8AE72834E4B0004C990F /* 566. Reshape the Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "566. Reshape the Matrix.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,12 +55,38 @@
 		9DD164D02834CEEF00B80F28 /* leetcode_solutions */ = {
 			isa = PBXGroup;
 			children = (
-				9DD164E62834D03000B80F28 /* 20. Valid Parentheses.swift */,
-				9DD164E82834D06000B80F28 /* 283. Move Zeroes.swift */,
-				9DD164EA2834D07300B80F28 /* 1672. Richest Customer Wealth.swift */,
-				9DD164EC2834D08300B80F28 /* 25. Reverse Nodes in k-Group.swift */,
+				9DFE8AE52834E1FF004C990F /* Stack */,
+				9DFE8AE62834E245004C990F /* Linked List */,
+				9DFE8AE42834E188004C990F /* Array */,
 			);
 			path = leetcode_solutions;
+			sourceTree = "<group>";
+		};
+		9DFE8AE42834E188004C990F /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				9DD164EA2834D07300B80F28 /* 1672. Richest Customer Wealth.swift */,
+				9DFE8AE22834E121004C990F /* 1572. Matrix Diagonal Sum.swift */,
+				9DD164E82834D06000B80F28 /* 283. Move Zeroes.swift */,
+				9DFE8AE72834E4B0004C990F /* 566. Reshape the Matrix.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		9DFE8AE52834E1FF004C990F /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				9DD164E62834D03000B80F28 /* 20. Valid Parentheses.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		9DFE8AE62834E245004C990F /* Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				9DD164EC2834D08300B80F28 /* 25. Reverse Nodes in k-Group.swift */,
+			);
+			path = "Linked List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DD164EB2834D07300B80F28 /* 1672. Richest Customer Wealth.swift in Sources */,
+				9DFE8AE82834E4B0004C990F /* 566. Reshape the Matrix.swift in Sources */,
 				9DD164E72834D03000B80F28 /* 20. Valid Parentheses.swift in Sources */,
 				9DD164E92834D06000B80F28 /* 283. Move Zeroes.swift in Sources */,
+				9DFE8AE32834E121004C990F /* 1572. Matrix Diagonal Sum.swift in Sources */,
 				9DD164ED2834D08300B80F28 /* 25. Reverse Nodes in k-Group.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
