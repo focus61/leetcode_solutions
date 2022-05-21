@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9D87FD3828365C6B0024D6F5 /* 100. Same Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D87FD3728365C6B0024D6F5 /* 100. Same Tree.swift */; };
+		9D87FD5A2838EA360024D6F5 /* 876. Middle of the Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D87FD592838EA350024D6F5 /* 876. Middle of the Linked List.swift */; };
+		9D87FD5C2838EE920024D6F5 /* 404. Sum of Left Leaves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D87FD5B2838EE920024D6F5 /* 404. Sum of Left Leaves.swift */; };
 		9DD164E72834D03000B80F28 /* 20. Valid Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD164E62834D03000B80F28 /* 20. Valid Parentheses.swift */; };
 		9DD164E92834D06000B80F28 /* 283. Move Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD164E82834D06000B80F28 /* 283. Move Zeroes.swift */; };
 		9DD164EB2834D07300B80F28 /* 1672. Richest Customer Wealth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD164EA2834D07300B80F28 /* 1672. Richest Customer Wealth.swift */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		9D87FD3728365C6B0024D6F5 /* 100. Same Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "100. Same Tree.swift"; sourceTree = "<group>"; };
+		9D87FD592838EA350024D6F5 /* 876. Middle of the Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "876. Middle of the Linked List.swift"; sourceTree = "<group>"; };
+		9D87FD5B2838EE920024D6F5 /* 404. Sum of Left Leaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "404. Sum of Left Leaves.swift"; sourceTree = "<group>"; };
 		9DD164CE2834CEEF00B80F28 /* leetcode_solutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode_solutions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD164E62834D03000B80F28 /* 20. Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20. Valid Parentheses.swift"; sourceTree = "<group>"; };
 		9DD164E82834D06000B80F28 /* 283. Move Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283. Move Zeroes.swift"; sourceTree = "<group>"; };
@@ -50,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				9D87FD3728365C6B0024D6F5 /* 100. Same Tree.swift */,
+				9D87FD5B2838EE920024D6F5 /* 404. Sum of Left Leaves.swift */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				9DD164EC2834D08300B80F28 /* 25. Reverse Nodes in k-Group.swift */,
+				9D87FD592838EA350024D6F5 /* 876. Middle of the Linked List.swift */,
 			);
 			path = "Linked List";
 			sourceTree = "<group>";
@@ -177,8 +183,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D87FD5C2838EE920024D6F5 /* 404. Sum of Left Leaves.swift in Sources */,
 				9DD164EB2834D07300B80F28 /* 1672. Richest Customer Wealth.swift in Sources */,
 				9DFE8AE82834E4B0004C990F /* 566. Reshape the Matrix.swift in Sources */,
+				9D87FD5A2838EA360024D6F5 /* 876. Middle of the Linked List.swift in Sources */,
 				9D87FD3828365C6B0024D6F5 /* 100. Same Tree.swift in Sources */,
 				9DD164E72834D03000B80F28 /* 20. Valid Parentheses.swift in Sources */,
 				9DD164E92834D06000B80F28 /* 283. Move Zeroes.swift in Sources */,
