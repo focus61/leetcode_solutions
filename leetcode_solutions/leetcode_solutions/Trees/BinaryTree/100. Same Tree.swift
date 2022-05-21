@@ -1,3 +1,4 @@
+import Foundation
 /*
  Easy
  
@@ -35,17 +36,18 @@
  *     }
  * }
  */
-class Solution {
-    func isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
-        return inOrder(node: p) == inOrder(node: q)
-    }
-    func inOrder(node: TreeNode?) -> String {
-        guard let node = node else {
-            return "nil"
-        }
-        if node.left == nil && node.right == nil {
-            return "\(node.val)"
-        }
-        return  "\(node.val)" + inOrder(node: node.left) + inOrder(node: node.right)
-    }
-}
+//class Solution {
+//    func isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
+//        return inOrder(node: p) == inOrder(node: q)
+//    }
+//    func inOrder(node: TreeNode?) -> String {
+//        guard let node = node else {
+//            return "nil"
+//        }
+//        if node.left == nil && node.right == nil {
+//            return "\(node.val)"
+//        }
+//        return  "\(node.val)" + inOrder(node: node.left) + inOrder(node: node.right)
+//    }
+//}
+
