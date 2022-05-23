@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D74A007283BF7DA001BA24A /* 374. Guess Number Higher or Lower .swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D74A006283BF7DA001BA24A /* 374. Guess Number Higher or Lower .swift */; };
 		9D87FD3828365C6B0024D6F5 /* 100. Same Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D87FD3728365C6B0024D6F5 /* 100. Same Tree.swift */; };
 		9D87FD5A2838EA360024D6F5 /* 876. Middle of the Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D87FD592838EA350024D6F5 /* 876. Middle of the Linked List.swift */; };
 		9D87FD5C2838EE920024D6F5 /* 404. Sum of Left Leaves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D87FD5B2838EE920024D6F5 /* 404. Sum of Left Leaves.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D74A006283BF7DA001BA24A /* 374. Guess Number Higher or Lower .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "374. Guess Number Higher or Lower .swift"; sourceTree = "<group>"; };
 		9D87FD3728365C6B0024D6F5 /* 100. Same Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "100. Same Tree.swift"; sourceTree = "<group>"; };
 		9D87FD592838EA350024D6F5 /* 876. Middle of the Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "876. Middle of the Linked List.swift"; sourceTree = "<group>"; };
 		9D87FD5B2838EE920024D6F5 /* 404. Sum of Left Leaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "404. Sum of Left Leaves.swift"; sourceTree = "<group>"; };
@@ -42,6 +44,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D74A004283BF7A4001BA24A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				9D74A005283BF7B6001BA24A /* BinarySearch */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		9D74A005283BF7B6001BA24A /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				9D74A006283BF7DA001BA24A /* 374. Guess Number Higher or Lower .swift */,
+			);
+			path = BinarySearch;
+			sourceTree = "<group>";
+		};
 		9D87FD3528365C0E0024D6F5 /* Trees */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +96,7 @@
 		9DD164D02834CEEF00B80F28 /* leetcode_solutions */ = {
 			isa = PBXGroup;
 			children = (
+				9D74A004283BF7A4001BA24A /* Search */,
 				9D87FD3528365C0E0024D6F5 /* Trees */,
 				9DFE8AE52834E1FF004C990F /* Stack */,
 				9DFE8AE62834E245004C990F /* Linked List */,
@@ -185,6 +204,7 @@
 			files = (
 				9D87FD5C2838EE920024D6F5 /* 404. Sum of Left Leaves.swift in Sources */,
 				9DD164EB2834D07300B80F28 /* 1672. Richest Customer Wealth.swift in Sources */,
+				9D74A007283BF7DA001BA24A /* 374. Guess Number Higher or Lower .swift in Sources */,
 				9DFE8AE82834E4B0004C990F /* 566. Reshape the Matrix.swift in Sources */,
 				9D87FD5A2838EA360024D6F5 /* 876. Middle of the Linked List.swift in Sources */,
 				9D87FD3828365C6B0024D6F5 /* 100. Same Tree.swift in Sources */,
